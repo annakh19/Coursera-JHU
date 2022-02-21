@@ -1,3 +1,25 @@
+.navbar{
+	background-color: grey;
+}
+#nav-list{
+	text-align: center;
+
+}
+#nav-list a:hover{
+	background: #E7E7E7;
+}
+
+.navbar-brand{
+	font-size: 20PX;
+}
+#title{
+	position: absolute;
+	top: 00;
+	left: 50%;
+	transform: translateX(-50%);
+	font-weight: bold;
+	margin-bottom: 10px;
+}
 .container{
   position: relative;
   background-color: grey;
@@ -5,46 +27,24 @@
   position: relative;
   line-height: 2em;
 }
-.navbar > .container-fluid{
-	background-color: grey;
-	margin-top: auto;
-}
-}
-
-#title{
-	position: absolute;
-	top: 00;
-	left: 50%;
-	transform: translateX(-50%);
-	font-weight: bold;
-
-}
-.navbar-brand {
-	background-color: grey;
-	font-family: sans-serif;
-	font-weight: bold;
+#heading{
 	font-size: 25px;
+	font-family: sans-serif;
+	margin-bottom: 30px;
+	margin-top: 20px;
 }
 
 
- .navbar-toggler{
-      background: transparent;
-    }
-
-//ExtraSmall devices (landscape phones, 576px and low) 
-@media (max-width: 575px) { 
+//Extra Small
+@media (min-width: 578px ) and (max-width: 767px) {
+	
 
 }
-//Small devices (tablets, 576px and up) 
-@media (min-width: 576px) { 
-	}
+//Small
+@media (min-width: 768px ) and (max-width: 991px) {
 
+}
+//Medium
+@media (min-width: 992px ) and (max-width: 1999px) {
 
-// Medium devices (desktops, 768px and up)
-	@media (min-width: 768px) {
-	}
-
-
-
-
-
+}
