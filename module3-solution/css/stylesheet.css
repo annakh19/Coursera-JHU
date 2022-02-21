@@ -1,0 +1,50 @@
+.container{
+  position: relative;
+  background-color: grey;
+  padding: 20px;
+  position: relative;
+  line-height: 2em;
+}
+.navbar > .container-fluid{
+	background-color: grey;
+	margin-top: auto;
+}
+}
+
+#title{
+	position: absolute;
+	top: 00;
+	left: 50%;
+	transform: translateX(-50%);
+	font-weight: bold;
+
+}
+.navbar-brand {
+	background-color: grey;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+
+ .navbar-toggler{
+      background: transparent;
+    }
+
+//ExtraSmall devices (landscape phones, 576px and low) 
+@media (max-width: 575px) { 
+
+}
+//Small devices (tablets, 576px and up) 
+@media (min-width: 576px) { 
+	}
+
+
+// Medium devices (desktops, 768px and up)
+	@media (min-width: 768px) {
+	}
+
+
+
+
+
